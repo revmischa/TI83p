@@ -1,0 +1,7 @@
+This application installs code in a mostly unused location in flash
+ROM which is activated when there is linkport activity. When activated
+the code will silently copy itself to the other calculator and install
+its code and linkport hook.
+
+The software does nothing malicious, it was simply a fun research
+project and a demonstration of the undocumented linkport features.
